@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.header-section-wapper {
+  background-color: #1d1d1f;
+  color: white;
+  font-weight: 200;
+  font-size: 0.9em;
+  position: fixed;
+  width: 100%;
+}
+.header-section-wapper ul {
+  display: flex;
+  justify-content: space-between;
+}
+.headline {
+  margin-bottom: 25px;
+}
+.internal-wrapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.internal-wrapper ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header-section-wapper ul {
+  list-style: none;
+}
+.header-section-wapper .links-wrapper ul li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+}
+.header-section-wapper .links-wrapper ul li:hover {
+  opacity: 1;
+}
+.logo-link img,
+.search-link img,
+.cart-link img {
+  width: 15px;
+  display: block;
+}
+.headerWrapper .header-links-wrapper ul li.logo-link {
+  padding: 12px 0 10px;
+}
+.headerWrapper .header-links-wrapper ul li.search-link {
+  padding: 10px 0 8px;
+}
+.headerWrapper .header-links-wrapper ul li.cart-link {
+  padding: 12px 0 10px;
+}
+
+/* mainhightlight section */
+
+.mainhighlight-wrapper {
+  background-image: url(../appleNewImage/home/hero_iphone16pro_avail__fnf0f9x70jiy_large.jpg);
+  text-align: center;
+  padding-bottom: 25px 0;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+  padding: 65px 20px;
+  height: 580px;
+}
+.internalWrapper {
+  display: flex;
+  height: 570px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.linksWrapper ul li {
+  display: inline-block;
+  justify-content: space-around;
+ 
+}
+.internalWrapper h2 {
+  font-size: 50px;
+}
+
+.button {
+  background-color: #0071e3;
+  border-radius: 30px;
+  font-size: 17px;
+  color: white;
+  margin-right: 15px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.17648;
+  letter-spacing: -0.022em;
+  min-width: 28px;
+  padding: 11px 21px;
+}
+.Buy {
+  border-radius: 30px;
+  border: 1px solid #005bb5;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 400;
+  padding: 11px 21px;
+}
+.Buy:hover {
+  background-color: #0071e3;
+  color: #005bb5;
+  border-radius: 30px;
+}
+.linksWrapper ul a {
+  color: white;
+  text-decoration: none;
+}
+.applePara {
+  color: #86868b;
+  font-size: 19px;
+  margin-top: 15px;
+}
+.sup-number{
+    font-size: .5em;
+}
+.model {
+  padding-bottom: 10px;
+}
+/* second main section */
+
+.secondhighlight-wrapper {
+  background-image: url(../appleNewImage/home/hero_iphone16_avail__euwzls69btea_large.jpg);
+  text-align: center;
+  padding-bottom: 25px 0;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-repeat: no-repeat;
+  padding: 65px 20px;
+  height: 580px;
+  margin-top: 13px;
+}
+.model {
+    padding-bottom: 10px;
+  }
+  /* thirdhight section */
+
+.thirdhighlight-wrapper{
+  background-image: url(../appleNewImage/home/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_large.jpg);
+  text-align: center;
+  padding-bottom: 25px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 65px 20px;
+  height: 580px;
+  margin-top: 13px;
+}
+.thirdModel{
+  text-align: center;
+  padding-top: 53px;
+}
+.button2 {
+  background-color: #0071e3;
+  border-radius: 30px;
+  font-size: 17px;
+  color: white;
+  margin-right: 15px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  padding: 11px 21px;
+}
+.thirdd-linksWrapper ul{
+  list-style: none;
+}
+.thirdd-linksWrapper ul li{
+  display: inline-block;
+}
+.Buy2 {
+  border-radius: 30px;
+  border: 1px solid #005bb5;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 400;
+  padding: 11px 21px;
+}
+.Buy2:hover{
+  background-color: #0071e3;
+  color: #005bb5;
+  border-radius: 30px;
+}
+.thirdd-linksWrapper ul li a{
+  text-decoration: none;
+}
+.headline2{
+  margin-top: 12px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #1d1d1f;
+}
+.thirdd-linksWrapper{
+  margin-top: 18px;
+}
+
